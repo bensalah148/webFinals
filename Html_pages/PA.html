@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diploma</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="../Css_pages/style.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+            <nav class="navmenu">
+                <a href="Page_accueil.html"  class="logo">Ichrak</a>
+                <ul>
+                <li>
+                    <a href="PA.html">Diploma</a>
+                 </li>
+                <li>
+                    <a href="CI.html">IT Skills</a>
+                 </li>
+                <li>
+                    <a href="Stages.html">Internships</a> 
+                </li>
+                <li>
+                    <a href="Matiéres.html">Subjects</a> 
+                </li>
+                <li>
+                    <a href="Passions.html">Hobbies</a> 
+                </li>
+                <li>
+                    <a href="Quiz.html">Quiz</a> 
+                </li>
+                <li>
+                    <a href="ichracCVFinal.pdf" download target="_blank" >curriculum vitae</a>
+                </li>
+            </ul>
+            </nav> 
+    </header> 
+    <section  >
+        <div id="formprin">
+        <form >
+            <fieldset class="carte1" >
+                
+                <table>
+                    <tr>
+                        <td>
+                <p>
+                <i class='bx bx-chevron-down-circle bx-fade-up bx-sm' ></i>
+                <h3 class="titrepa">scientific baccalaureate</h3>
+                </p>
+                <img src="../Images/bac.png" class="bacimg">
+                        </td>
+
+                <td>
+                    <br><br><br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="button"  onclick="afficher()" class="btn_click" value="Details"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+                <td>
+                    <p>
+                    <i class='bx bx-chevron-down-circle bx-fade-up bx-sm' ></i>
+                    <h3 class="titrepa">Computer science degree </h3>
+                    <img src="../Images/Licence-Diplome.jpg" class="bacimg">
+                    </p>
+                </td>
+
+                <td>
+                    <br><br><br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="button"  onclick="afficher1()" class="btn_click" value="Details"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+                <td>
+                    <p>
+                    <i class='bx bx-chevron-down-circle bx-fade-up bx-sm' ></i>
+                    <h3 class="titrepa">French language certificate</h3>
+                    <img src="../Images/tcf.jpg" class="bacimg" >
+                    </p>
+                </td>
+                <td>
+                    <br><br><br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="button"  onclick="afficher2()" class="btn_click" value="Details"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+                </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+    </section>
+<div id="licence">
+<form class="ff" >
+        <fieldset class="fil">
+            <legend>Détails</legend>
+            <p>
+                <label>Lieu : </label>
+               <label> L'institut supérieur des études technologiques à sfax </label>
+            </p>
+            <p>
+                <label>Date : </label>
+               <label> 19-Aout-2022 </label>
+            </p>
+            <p>
+                <label>Mention : </label>
+               <label> Trés bien </label>
+            </p>
+           <a href="./PA.html"> <input type="button"  onclick="fermer1()" class="btn_click" value="Hide"></a>
+        </fieldset>
+    </form>
+</div>
+<div id="bac">
+    <form class="ff" >
+        <fieldset class="fil">
+            <legend>Détails</legend>
+            <p>
+                <label>Lieu : </label>
+               <label> Lycée Mohamed Ali Sfax </label>
+            </p>
+            <p>
+                <label>Date : </label>
+               <label> 24-juillet-2019 </label>
+            </p>
+            <p>
+                <label>Mention : </label>
+               <label> Assez bien </label>
+            </p>
+            <a href="./PA.html"><input type="button"  onclick="fermer()" class="btn_click" value="Hide"></a>
+        </fieldset>
+    </form>
+</div>
+<div id="tcf">
+
+    <form class="ff" >
+        <fieldset class="fil">
+            <legend>Détails</legend>
+            <p>
+                <label>Lieu : </label>
+               <label> L'Institut français de Sfax -Maison de France-  </label>
+            </p>
+            <p>
+                <label>Date : </label>
+               <label> 21-sept-2022 </label>
+            </p>
+            <p>
+                <label>Niveau : </label>
+               <label> C1 </label>
+            </p>
+            <a href="./PA.html"><input type="button"  onclick="fermer2()" class="btn_click" value="Hide"></a>
+        </fieldset>
+    </form>
+</div>
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<footer>
+    <p><i class='bx bx-envelope bx-tada bx-sm' style='color:rgba(0,0,0,0.95)' ></i>
+    <a href="mailto:ichrak.bensalah148@gmail.com" class="email" class='bx bxs-like bx-tada-hover'>Send me an Email</a></p> 
+</footer>
+</body>
+<script type="text/javascript" src="../script.js"></script>
+</html>
